@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="background_gradient_end">#DDDDDD</color>
+    <color name="background_gradient_start">#000000</color>
+    <color name="black">#FF000000</color>
+    <color name="brown">#433232</color>
+    <color name="darkGray">#3A3939</color>
+    <color name="default_background">#3d3d3d</color>
+    <color name="error_color">#f00</color>
+    <color name="fastlane_background">#0096a6</color>
+    <color name="gray">#f5f5f5</color>
+    <color name="hintTextColor">#787878</color>
+    <color name="pink">#F6DEDE</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="search_opaque">#ffaa3f</color>
+    <color name="selected_background">#ffaa3f</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="transparent">#00000000</color>
+    <color name="vert">#1f4545</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="yellow">#FF9A00</color>
+    <color name="youtube">#C64141</color>
+    <dimen name="_10sdp">10</dimen>
+    <dimen name="_11ssp">11</dimen>
+    <dimen name="_20sdp">20</dimen>
+    <dimen name="_20ssp">20</dimen>
+    <dimen name="_5sdp">5</dimen>
+    <dimen name="_70sdp">70</dimen>
+    <dimen name="_80sdp">80</dimen>
+    <string name="app_name">My Application1</string>
+    <string name="dismiss_error">Dismiss</string>
+    <string name="error_fragment_message">An error occurred</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title">title</string>
+    <style name="Theme.MyApplication1" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        
+    </style>
+    <style name="ThemeOverlay.Search" parent="Theme.MyApplication1">
+        
+        <item name="android:editTextColor">@color/black</item>
+        <item name="android:textColorHint">@color/hintTextColor</item>
+        
+    </style>
+</resources>

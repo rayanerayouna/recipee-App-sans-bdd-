@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "768759245261",
+    "project_id": "recip-a918f",
+    "storage_bucket": "recip-a918f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:768759245261:android:d378eef6dca328eddd7c84",
+        "android_client_info": {
+          "package_name": "com.codingwithme.recipeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "768759245261-s016s3d2m3cl9pblcfe1iv81i9nne18e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQw8JyiYGG35PxHqVMQtIrJEMJxm8swiY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "768759245261-s016s3d2m3cl9pblcfe1iv81i9nne18e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:768759245261:android:9123842d0d41b1e5dd7c84",
+        "android_client_info": {
+          "package_name": "com.example.myapplication1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "768759245261-s016s3d2m3cl9pblcfe1iv81i9nne18e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQw8JyiYGG35PxHqVMQtIrJEMJxm8swiY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "768759245261-s016s3d2m3cl9pblcfe1iv81i9nne18e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

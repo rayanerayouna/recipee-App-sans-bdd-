@@ -1,0 +1,151 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.myapplication1"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\rayane\Desktop\MyApplication1\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\rayane\Desktop\MyApplication1\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\rayane\Desktop\MyApplication1\app\src\main\AndroidManifest.xml:7:5-67
+11-->C:\Users\rayane\Desktop\MyApplication1\app\src\main\AndroidManifest.xml:7:22-64
+12
+13    <uses-feature
+13-->C:\Users\rayane\Desktop\MyApplication1\app\src\main\AndroidManifest.xml:9:5-11:36
+14        android:name="android.hardware.touchscreen"
+14-->C:\Users\rayane\Desktop\MyApplication1\app\src\main\AndroidManifest.xml:10:9-52
+15        android:required="false" />
+15-->C:\Users\rayane\Desktop\MyApplication1\app\src\main\AndroidManifest.xml:11:9-33
+16    <uses-feature
+16-->C:\Users\rayane\Desktop\MyApplication1\app\src\main\AndroidManifest.xml:12:5-14:35
+17        android:name="android.software.leanback"
+17-->C:\Users\rayane\Desktop\MyApplication1\app\src\main\AndroidManifest.xml:13:9-49
+18        android:required="true" />
+18-->C:\Users\rayane\Desktop\MyApplication1\app\src\main\AndroidManifest.xml:14:9-32
+19
+20    <queries>
+20-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\rayane\.gradle\caches\transforms-3\d6fdb2f25fd70b9f12338f9a6d6e24bb\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:26:5-31:15
+21        <provider
+21-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\rayane\.gradle\caches\transforms-3\d6fdb2f25fd70b9f12338f9a6d6e24bb\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:27:9-30:67
+22            android:name="com.android.car.ui.plugin.PluginNameProvider"
+22-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\rayane\.gradle\caches\transforms-3\d6fdb2f25fd70b9f12338f9a6d6e24bb\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:28:13-72
+23            android:authorities="com.android.car.ui.plugin" />
+23-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\rayane\.gradle\caches\transforms-3\d6fdb2f25fd70b9f12338f9a6d6e24bb\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:29:13-60
+24    </queries>
+25
+26    <application
+26-->C:\Users\rayane\Desktop\MyApplication1\app\src\main\AndroidManifest.xml:16:5-46:19
+27        android:allowBackup="true"
+27-->C:\Users\rayane\Desktop\MyApplication1\app\src\main\AndroidManifest.xml:17:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.7.0] C:\Users\rayane\.gradle\caches\transforms-3\8aa9a48ab309a6058d7da29b6c5a2179\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+29        android:debuggable="true"
+30        android:icon="@mipmap/ic_launcher"
+30-->C:\Users\rayane\Desktop\MyApplication1\app\src\main\AndroidManifest.xml:18:9-43
+31        android:label="@string/app_name"
+31-->C:\Users\rayane\Desktop\MyApplication1\app\src\main\AndroidManifest.xml:19:9-41
+32        android:roundIcon="@mipmap/ic_launcher_round"
+32-->C:\Users\rayane\Desktop\MyApplication1\app\src\main\AndroidManifest.xml:20:9-54
+33        android:supportsRtl="true"
+33-->C:\Users\rayane\Desktop\MyApplication1\app\src\main\AndroidManifest.xml:21:9-35
+34        android:testOnly="true"
+35        android:theme="@style/Theme.MyApplication1" >
+35-->C:\Users\rayane\Desktop\MyApplication1\app\src\main\AndroidManifest.xml:22:9-52
+36        <activity
+36-->C:\Users\rayane\Desktop\MyApplication1\app\src\main\AndroidManifest.xml:23:9-25:40
+37            android:name="com.example.myapplication1.MainActivity3"
+37-->C:\Users\rayane\Desktop\MyApplication1\app\src\main\AndroidManifest.xml:24:13-42
+38            android:exported="false" />
+38-->C:\Users\rayane\Desktop\MyApplication1\app\src\main\AndroidManifest.xml:25:13-37
+39        <activity
+39-->C:\Users\rayane\Desktop\MyApplication1\app\src\main\AndroidManifest.xml:26:9-34:20
+40            android:name="com.example.myapplication1.SplashScrenn"
+40-->C:\Users\rayane\Desktop\MyApplication1\app\src\main\AndroidManifest.xml:27:13-41
+41            android:exported="true" >
+41-->C:\Users\rayane\Desktop\MyApplication1\app\src\main\AndroidManifest.xml:28:13-36
+42            <intent-filter>
+42-->C:\Users\rayane\Desktop\MyApplication1\app\src\main\AndroidManifest.xml:29:13-33:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->C:\Users\rayane\Desktop\MyApplication1\app\src\main\AndroidManifest.xml:30:17-69
+43-->C:\Users\rayane\Desktop\MyApplication1\app\src\main\AndroidManifest.xml:30:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->C:\Users\rayane\Desktop\MyApplication1\app\src\main\AndroidManifest.xml:32:17-77
+45-->C:\Users\rayane\Desktop\MyApplication1\app\src\main\AndroidManifest.xml:32:27-74
+46            </intent-filter>
+47        </activity>
+48        <activity
+48-->C:\Users\rayane\Desktop\MyApplication1\app\src\main\AndroidManifest.xml:35:9-37:39
+49            android:name="com.example.myapplication1.inscriptionActivity"
+49-->C:\Users\rayane\Desktop\MyApplication1\app\src\main\AndroidManifest.xml:36:13-48
+50            android:exported="true" />
+50-->C:\Users\rayane\Desktop\MyApplication1\app\src\main\AndroidManifest.xml:37:13-36
+51        <activity
+51-->C:\Users\rayane\Desktop\MyApplication1\app\src\main\AndroidManifest.xml:38:9-42:58
+52            android:name="com.example.myapplication1.MainActivity2"
+52-->C:\Users\rayane\Desktop\MyApplication1\app\src\main\AndroidManifest.xml:39:13-42
+53            android:exported="true"
+53-->C:\Users\rayane\Desktop\MyApplication1\app\src\main\AndroidManifest.xml:40:13-36
+54            android:label="principale"
+54-->C:\Users\rayane\Desktop\MyApplication1\app\src\main\AndroidManifest.xml:41:13-39
+55            android:parentActivityName="com.example.myapplication1.MainActivity" />
+55-->C:\Users\rayane\Desktop\MyApplication1\app\src\main\AndroidManifest.xml:42:13-55
+56        <activity
+56-->C:\Users\rayane\Desktop\MyApplication1\app\src\main\AndroidManifest.xml:43:9-45:48
+57            android:name="com.example.myapplication1.MainActivity"
+57-->C:\Users\rayane\Desktop\MyApplication1\app\src\main\AndroidManifest.xml:44:13-41
+58            android:exported="true" />
+58-->C:\Users\rayane\Desktop\MyApplication1\app\src\main\AndroidManifest.xml:45:13-36
+59
+60        <provider
+60-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\rayane\.gradle\caches\transforms-3\d6fdb2f25fd70b9f12338f9a6d6e24bb\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:34:9-39:71
+61            android:name="com.android.car.ui.core.CarUiInstaller"
+61-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\rayane\.gradle\caches\transforms-3\d6fdb2f25fd70b9f12338f9a6d6e24bb\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:35:13-66
+62            android:authorities="com.example.myapplication1.CarUiInstaller"
+62-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\rayane\.gradle\caches\transforms-3\d6fdb2f25fd70b9f12338f9a6d6e24bb\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:36:13-66
+63            android:directBootAware="true"
+63-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\rayane\.gradle\caches\transforms-3\d6fdb2f25fd70b9f12338f9a6d6e24bb\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:37:13-43
+64            android:exported="false"
+64-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\rayane\.gradle\caches\transforms-3\d6fdb2f25fd70b9f12338f9a6d6e24bb\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:38:13-37
+65            android:process="@string/car_ui_installer_process_name" />
+65-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\rayane\.gradle\caches\transforms-3\d6fdb2f25fd70b9f12338f9a6d6e24bb\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:39:13-68
+66        <provider
+66-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\rayane\.gradle\caches\transforms-3\d6fdb2f25fd70b9f12338f9a6d6e24bb\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:40:9-45:79
+67            android:name="com.android.car.ui.core.SearchResultsProvider"
+67-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\rayane\.gradle\caches\transforms-3\d6fdb2f25fd70b9f12338f9a6d6e24bb\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:41:13-73
+68            android:authorities="com.example.myapplication1.SearchResultsProvider"
+68-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\rayane\.gradle\caches\transforms-3\d6fdb2f25fd70b9f12338f9a6d6e24bb\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:42:13-73
+69            android:exported="true"
+69-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\rayane\.gradle\caches\transforms-3\d6fdb2f25fd70b9f12338f9a6d6e24bb\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:43:13-36
+70            android:process="@string/car_ui_installer_process_name"
+70-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\rayane\.gradle\caches\transforms-3\d6fdb2f25fd70b9f12338f9a6d6e24bb\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:44:13-68
+71            android:readPermission="com.android.car.ui.READ_SEARCH_RESULTS" />
+71-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\rayane\.gradle\caches\transforms-3\d6fdb2f25fd70b9f12338f9a6d6e24bb\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:45:13-76
+72        <provider
+72-->[androidx.emoji2:emoji2:1.0.0] C:\Users\rayane\.gradle\caches\transforms-3\2ea2dd8e1da7b7cd2870eb21b04b6245\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+73            android:name="androidx.startup.InitializationProvider"
+73-->[androidx.emoji2:emoji2:1.0.0] C:\Users\rayane\.gradle\caches\transforms-3\2ea2dd8e1da7b7cd2870eb21b04b6245\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+74            android:authorities="com.example.myapplication1.androidx-startup"
+74-->[androidx.emoji2:emoji2:1.0.0] C:\Users\rayane\.gradle\caches\transforms-3\2ea2dd8e1da7b7cd2870eb21b04b6245\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+75            android:exported="false" >
+75-->[androidx.emoji2:emoji2:1.0.0] C:\Users\rayane\.gradle\caches\transforms-3\2ea2dd8e1da7b7cd2870eb21b04b6245\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+76            <meta-data
+76-->[androidx.emoji2:emoji2:1.0.0] C:\Users\rayane\.gradle\caches\transforms-3\2ea2dd8e1da7b7cd2870eb21b04b6245\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+77                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+77-->[androidx.emoji2:emoji2:1.0.0] C:\Users\rayane\.gradle\caches\transforms-3\2ea2dd8e1da7b7cd2870eb21b04b6245\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+78                android:value="androidx.startup" />
+78-->[androidx.emoji2:emoji2:1.0.0] C:\Users\rayane\.gradle\caches\transforms-3\2ea2dd8e1da7b7cd2870eb21b04b6245\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+79            <meta-data
+79-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\rayane\.gradle\caches\transforms-3\ee8401cefc63a669f7995fd5a1deff3b\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+80                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+80-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\rayane\.gradle\caches\transforms-3\ee8401cefc63a669f7995fd5a1deff3b\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+81                android:value="androidx.startup" />
+81-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\rayane\.gradle\caches\transforms-3\ee8401cefc63a669f7995fd5a1deff3b\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+82        </provider>
+83    </application>
+84
+85</manifest>
