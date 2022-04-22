@@ -52,7 +52,7 @@ class inscriptionActivity  : AppCompatActivity() {
                     val isInserted = db.addUser(user)
                     if(isInserted){
                         Toast.makeText(this,"votre compte a été crée avec succeés",Toast.LENGTH_LONG).show()
-                        Intent(this,MainActivity2::class.java).also{
+                        Intent(this,recyclerViewActivity::class.java).also{
                             it.putExtra("email",email)
                             startActivity(it)
                         }

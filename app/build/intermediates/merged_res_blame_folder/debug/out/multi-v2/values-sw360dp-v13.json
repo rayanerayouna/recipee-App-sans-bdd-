@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\rayane\\Desktop\\MyApplication1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw360dp-v13\\values-sw360dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\rayane\\.gradle\\caches\\transforms-3\\f381818dd6b6d866700ec359f9fe25d0\\transformed\\preference-1.1.1\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",
+                    "source": "C:\\Users\\rayane\\.gradle\\caches\\transforms-3\\a9fda85c6448f0659b38764cdae281dd\\transformed\\preference-1.1.1\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

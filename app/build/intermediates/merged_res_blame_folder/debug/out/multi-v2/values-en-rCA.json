@@ -4,24 +4,7 @@
             "outputFile": "C:\\Users\\rayane\\Desktop\\MyApplication1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rCA\\values-en-rCA.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\rayane\\.gradle\\caches\\transforms-3\\f381818dd6b6d866700ec359f9fe25d0\\transformed\\preference-1.1.1\\res\\values-en-rCA\\values-en-rCA.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "105,192,361,441",
-                        "endColumns": "86,168,79,75",
-                        "endOffsets": "187,356,436,512"
-                    },
-                    "to": {
-                        "startLines": "41,83,84,85",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "4015,8507,8676,8756",
-                        "endColumns": "86,168,79,75",
-                        "endOffsets": "4097,8671,8751,8827"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\rayane\\.gradle\\caches\\transforms-3\\8aa9a48ab309a6058d7da29b6c5a2179\\transformed\\core-1.7.0\\res\\values-en-rCA\\values-en-rCA.xml",
+                    "source": "C:\\Users\\rayane\\.gradle\\caches\\transforms-3\\23fc37437bace226093c9a564ed97200\\transformed\\core-1.7.0\\res\\values-en-rCA\\values-en-rCA.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -38,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\rayane\\.gradle\\caches\\transforms-3\\93e1856551d2ec97497f45549ad44355\\transformed\\appcompat-1.4.1\\res\\values-en-rCA\\values-en-rCA.xml",
+                    "source": "C:\\Users\\rayane\\.gradle\\caches\\transforms-3\\4eeb40118484bb845363005cdd95190e\\transformed\\appcompat-1.4.1\\res\\values-en-rCA\\values-en-rCA.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -55,7 +38,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\rayane\\.gradle\\caches\\transforms-3\\d6fdb2f25fd70b9f12338f9a6d6e24bb\\transformed\\car-ui-lib-2.0.0\\res\\values-en-rCA\\values.xml",
+                    "source": "C:\\Users\\rayane\\.gradle\\caches\\transforms-3\\a9fda85c6448f0659b38764cdae281dd\\transformed\\preference-1.1.1\\res\\values-en-rCA\\values-en-rCA.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "105,192,361,441",
+                        "endColumns": "86,168,79,75",
+                        "endOffsets": "187,356,436,512"
+                    },
+                    "to": {
+                        "startLines": "41,83,84,85",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "4015,8507,8676,8756",
+                        "endColumns": "86,168,79,75",
+                        "endOffsets": "4097,8671,8751,8827"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\rayane\\.gradle\\caches\\transforms-3\\aea1dafc4f129e848cc5c59b998f0857\\transformed\\car-ui-lib-2.0.0\\res\\values-en-rCA\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0",
@@ -72,7 +72,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\rayane\\.gradle\\caches\\transforms-3\\7e378c19f184948084effac0a7b27d97\\transformed\\leanback-1.0.0\\res\\values-en-rCA\\values-en-rCA.xml",
+                    "source": "C:\\Users\\rayane\\.gradle\\caches\\transforms-3\\7b89a96e3d82e274ac0e29404d7e582a\\transformed\\leanback-1.0.0\\res\\values-en-rCA\\values-en-rCA.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

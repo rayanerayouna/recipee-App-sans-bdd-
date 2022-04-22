@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\rayane\\Desktop\\MyApplication1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w600dp-land-v13\\values-w600dp-land-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\rayane\\.gradle\\caches\\transforms-3\\479fa884ebe74ddc4b2fed48030e617d\\transformed\\material-1.6.0-alpha03\\res\\values-w600dp-land-v13\\values-w600dp-land-v13.xml",
+                    "source": "C:\\Users\\rayane\\.gradle\\caches\\transforms-3\\0d5d726f55d4e726f3f0edc79eec09d1\\transformed\\material-1.6.0-alpha03\\res\\values-w600dp-land-v13\\values-w600dp-land-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -5,6 +5,7 @@
     tools:ignore="MissingLeanbackLauncher">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <uses-feature
         android:name="android.hardware.touchscreen"
@@ -21,8 +22,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication1">
         <activity
-            android:name=".MainActivity3"
-            android:exported="false" />
+            android:name=".recipe_detail"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
         <activity
             android:name=".SplashScrenn"
             android:exported="true">
@@ -36,13 +38,13 @@
             android:name=".inscriptionActivity"
             android:exported="true" />
         <activity
-            android:name=".MainActivity2"
+            android:name=".recyclerViewActivity"
             android:exported="true"
             android:label="principale"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName=".connexionActivity" />
         <activity
-            android:name=".MainActivity"
-            android:exported="true"></activity>
+            android:name=".connexionActivity"
+            android:exported="true" />
     </application>
 
 </manifest>

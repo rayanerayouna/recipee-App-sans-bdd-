@@ -4,7 +4,17 @@
             "outputFile": "C:\\Users\\rayane\\Desktop\\MyApplication1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\rayane\\.gradle\\caches\\transforms-3\\d6fdb2f25fd70b9f12338f9a6d6e24bb\\transformed\\car-ui-lib-2.0.0\\res\\values-port\\values.xml",
+                    "source": "C:\\Users\\rayane\\.gradle\\caches\\transforms-3\\4eeb40118484bb845363005cdd95190e\\transformed\\appcompat-1.4.1\\res\\values-port\\values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\rayane\\.gradle\\caches\\transforms-3\\aea1dafc4f129e848cc5c59b998f0857\\transformed\\car-ui-lib-2.0.0\\res\\values-port\\values.xml",
                     "from": {
                         "startLines": "4,7,8",
                         "startColumns": "0,0,0",
@@ -18,16 +28,6 @@
                         "startOffsets": "111,175,244",
                         "endColumns": "63,68,66",
                         "endOffsets": "170,239,306"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\rayane\\.gradle\\caches\\transforms-3\\93e1856551d2ec97497f45549ad44355\\transformed\\appcompat-1.4.1\\res\\values-port\\values-port.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "55",
-                        "endOffsets": "106"
                     }
                 }
             ]

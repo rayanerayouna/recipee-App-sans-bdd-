@@ -4,24 +4,7 @@
             "outputFile": "C:\\Users\\rayane\\Desktop\\MyApplication1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldrtl-v17\\values-ldrtl-v17.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\rayane\\.gradle\\caches\\transforms-3\\7e378c19f184948084effac0a7b27d97\\transformed\\leanback-1.0.0\\res\\values-ldrtl-v17\\values-ldrtl-v17.xml",
-                    "from": {
-                        "startLines": "2,3,4",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,133,178",
-                        "endColumns": "77,44,46",
-                        "endOffsets": "128,173,220"
-                    },
-                    "to": {
-                        "startLines": "2,5,6",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,410,455",
-                        "endColumns": "77,44,46",
-                        "endOffsets": "128,450,497"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\rayane\\.gradle\\caches\\transforms-3\\479fa884ebe74ddc4b2fed48030e617d\\transformed\\material-1.6.0-alpha03\\res\\values-ldrtl-v17\\values-ldrtl-v17.xml",
+                    "source": "C:\\Users\\rayane\\.gradle\\caches\\transforms-3\\0d5d726f55d4e726f3f0edc79eec09d1\\transformed\\material-1.6.0-alpha03\\res\\values-ldrtl-v17\\values-ldrtl-v17.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -35,6 +18,23 @@
                         "startOffsets": "133,269",
                         "endColumns": "135,140",
                         "endOffsets": "264,405"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\rayane\\.gradle\\caches\\transforms-3\\7b89a96e3d82e274ac0e29404d7e582a\\transformed\\leanback-1.0.0\\res\\values-ldrtl-v17\\values-ldrtl-v17.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,133,178",
+                        "endColumns": "77,44,46",
+                        "endOffsets": "128,173,220"
+                    },
+                    "to": {
+                        "startLines": "2,5,6",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,410,455",
+                        "endColumns": "77,44,46",
+                        "endOffsets": "128,450,497"
                     }
                 }
             ]

@@ -6,19 +6,21 @@
     android:layout_height="match_parent"
     app:cardCornerRadius="20dp"
     app:cardElevation="5dp"
+
     android:layout_marginLeft="15dp">
 
     <ImageView
-        android:id="@+id/recipeImage"
+        android:id="@+id/img_item"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:src="@drawable/cat_img"/>
     <ImageView
-        android:id="@+id/star_icone"
+        android:id="@+id/star_icon"
+        android:src="@drawable/ic_unstar"
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:layout_margin="20dp"
-        android:src="@drawable/favoris"/>
+        app:tint="@color/teal_700" />
 
 
 </androidx.cardview.widget.CardView>
